@@ -16,3 +16,10 @@
   </div>
 </tool-bar>
 ```
+
+在style.scss中引入
+
+```
+@import "./assets/iconfont.css";
+```
+
