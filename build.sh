@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+rm -rf dist/iwe7-toolbar
 ng build --project iwe7-toolbar
 mkdir -p ./dist/iwe7-toolbar/themes
 cp -fr ./projects/iwe7-toolbar/themes/* ./dist/iwe7-toolbar/themes/
