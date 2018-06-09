@@ -19,7 +19,7 @@
 
 在style.scss中引入
 
-```
-@import "./assets/iconfont.css";
+```scss
+@import "~iwe7-toolbar/themes/iconfont.css";
 ```
 
