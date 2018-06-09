@@ -1,0 +1,8 @@
+<div class="cube-toolbar-group cube-toolbar-group-more" *ngIf="showMore">
+  <ng-container>
+    <ng-container *ngTemplateOutlet="more.tpl"></ng-container>
+  </ng-container>
+</div>
+<div class="cube-toolbar-group">
+  <ng-content></ng-content>
+</div>
